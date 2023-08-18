@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		    <!-- update the version number as needed -->
+			<script defer src="/__/firebase/10.2.0/firebase-app-compat.js"></script>
+			<!-- include only the Firebase features as you need -->
+			<script defer src="/__/firebase/10.2.0/firebase-auth-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-database-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-firestore-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-functions-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-messaging-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-storage-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-analytics-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-remote-config-compat.js"></script>
+			<script defer src="/__/firebase/10.2.0/firebase-performance-compat.js"></script>
+			<!-- 
+			  initialize the SDK after all desired features are loaded, set useEmulator to false
+			  to avoid connecting the SDK to running emulators.
+			-->
+			<script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.aef548ea.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.6dad140f.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.35b54bf4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.cbf234a0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.aed136c4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.14349a18.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/parse.bee59afc.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.e2f1cb09.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.d47c8428.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.e713421b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.1bbefd10.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.644ff7cf.js"><title>Home</title><!-- HEAD_svelte-t32ptj_START --><meta name="description" content="Svelte demo app"><!-- HEAD_svelte-t32ptj_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="app svelte-8o1gnw"><header class="svelte-1u9z1tp"><div class="corner svelte-1u9z1tp" data-svelte-h="svelte-1jb641n"><a href="https://kit.svelte.dev" class="svelte-1u9z1tp"><img src="/_app/immutable/assets/svelte-logo.87df40b8.svg" alt="SvelteKit" class="svelte-1u9z1tp"></a></div> <nav class="svelte-1u9z1tp"><svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-1u9z1tp"><path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" class="svelte-1u9z1tp"></path></svg> <ul class="svelte-1u9z1tp"><li aria-current="page" class="svelte-1u9z1tp"><a href="/" class="svelte-1u9z1tp" data-svelte-h="svelte-5a0zws">Home</a></li> <li class="svelte-1u9z1tp"><a href="/about" class="svelte-1u9z1tp" data-svelte-h="svelte-iphxk9">About</a></li> <li class="svelte-1u9z1tp"><a href="/sverdle" class="svelte-1u9z1tp" data-svelte-h="svelte-1mtf8rh">Sverdle</a></li></ul> <svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-1u9z1tp"><path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" class="svelte-1u9z1tp"></path></svg></nav> <div class="corner svelte-1u9z1tp" data-svelte-h="svelte-1gilmbv"><a href="https://github.com/sveltejs/kit" class="svelte-1u9z1tp"><img src="/_app/immutable/assets/github.1ea8d62e.svg" alt="GitHub" class="svelte-1u9z1tp"></a></div> </header> <main class="svelte-8o1gnw"> <section class="svelte-19xx0bt"><h1 class="text-3xl font-bold underline svelte-19xx0bt" data-svelte-h="svelte-katnxg"><span class="welcome svelte-19xx0bt"><picture><source srcset="/_app/immutable/assets/svelte-welcome.c18bcf5a.webp" type="image/webp"> <img src="/_app/immutable/assets/svelte-welcome.6c300099.png" alt="Welcome" class="svelte-19xx0bt"></picture></span>
+
+		to your new<br>SvelteKit app</h1> <h2 data-svelte-h="svelte-1e36z0s">try editing <strong>src/routes/+page.svelte</strong></h2> <div class="counter svelte-y96mxt"><button aria-label="Decrease the counter by one" class="svelte-y96mxt" data-svelte-h="svelte-97ppyc"><svg aria-hidden="true" viewBox="0 0 1 1" class="svelte-y96mxt"><path d="M0,0.5 L1,0.5" class="svelte-y96mxt"></path></svg></button> <div class="counter-viewport svelte-y96mxt"><div class="counter-digits svelte-y96mxt" style="transform: translate(0, 0%)"><strong class="hidden svelte-y96mxt" aria-hidden="true">1</strong> <strong class="svelte-y96mxt">0</strong></div></div> <button aria-label="Increase the counter by one" class="svelte-y96mxt" data-svelte-h="svelte-irev0c"><svg aria-hidden="true" viewBox="0 0 1 1" class="svelte-y96mxt"><path d="M0,0.5 L1,0.5 M0.5,0 L0.5,1" class="svelte-y96mxt"></path></svg></button> </div> </section></main> <footer class="svelte-8o1gnw" data-svelte-h="svelte-1dlfr5"><p>visit <a href="https://kit.svelte.dev" class="svelte-8o1gnw">kit.svelte.dev</a> to learn SvelteKit</p></footer> </div> 
+			
+			<script>
+				{
+					__sveltekit_1awsvx = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.35b54bf4.js"),
+						import("./_app/immutable/entry/app.e2f1cb09.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+			  const loadEl = document.querySelector('#load');
+			  // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+			  // // The Firebase SDK is initialized and available here!
+			  //
+			  // firebase.auth().onAuthStateChanged(user => { });
+			  // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+			  // firebase.firestore().doc('/foo/bar').get().then(() => { });
+			  // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+			  // firebase.messaging().requestPermission().then(() => { });
+			  // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+			  // firebase.analytics(); // call to activate
+			  // firebase.analytics().logEvent('tutorial_completed');
+			  // firebase.performance(); // call to activate
+			  //
+			  // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+	  
+			  try {
+				let app = firebase.app();
+				let features = [
+				  'auth', 
+				  'database', 
+				  'firestore',
+				  'functions',
+				  'messaging', 
+				  'storage', 
+				  'analytics', 
+				  'remoteConfig',
+				  'performance',
+				].filter(feature => typeof app[feature] === 'function');
+				loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+			  } catch (e) {
+				console.error(e);
+				loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+			  }
+			});
+		  </script>
+	</body>
+</html>
